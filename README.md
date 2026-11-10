@@ -23,3 +23,16 @@ SALES SYSTEM)
 
 - Hiển thị giao diện top 5 mặt hàng doanh thu
 <img width="1144" height="734" alt="Screenshot 2026-11-10 181728" src="https://github.com/user-attachments/assets/0f738516-6505-496d-94ec-430e29a4580a" />
+
+
+## HƯỚNG DẪN CÀI ĐẶT VÀ CHẠY DỰ ÁN:
+1. **Khởi tạo CSDL**:
+   - Mở file `Database.sql` có sẵn trong thư mục dự án bằng SQL Server Management Studio (SSMS) hoặc Visual Studio.
+   - Chạy toàn bộ script (Execute) để tự động tạo CSDL `SieuthiDB` cùng các bảng và dữ liệu mẫu.
+
+2. **Cấu hình chuỗi kết nối**:
+   - Mở file `Dbhelper.cs`.
+   - Kiểm tra và đổi lại `Data Source` cho khớp với tên SQL Server trên máy chấm (Mặc định đang để kết nối tới `(localdb)\MSSQLLocalDB`).
+
+3. **Chạy chương trình**:
+   - Nhấn **F5** (hoặc nút Start) trên Visual Studio để chạy hệ thống.
